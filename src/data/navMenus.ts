@@ -1,0 +1,43 @@
+import { INavItem } from "@/types";
+import {
+  faHome,
+  faUser,
+  faBriefcase,
+  faTimeline,
+  faAward,
+  faLaptopCode,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+
+export const navMenus: INavItem[] = [
+  // {
+  //   name: "Home",
+  //   link: "/#hero",
+  //   icon: faHome,
+  // },
+  {
+    name: "About",
+    link: "/#about",
+    icon: faUser,
+  },
+  {
+    name: "What I Do",
+    link: "/#services",
+    icon: faBriefcase,
+  },
+  {
+    name: "Experiences",
+    link: "/#experiences",
+    icon: faTimeline,
+  },
+  {
+    name: "Skills",
+    link: "/#skills",
+    icon: faAward,
+  },
+  {
+    name: "Contact",
+    link: "/#contact",
+    icon: faEnvelope,
+  },
+];
